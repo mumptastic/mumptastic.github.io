@@ -1,8 +1,11 @@
 ---
-
+layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-05-10 11:56:26 -0500
+permalink: 😡Default-Post😡
 categories: jekyll update
+color: 255,255,255
+image: https://images.unsplash.com/photo-1481820972039-e6071cc5c304?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

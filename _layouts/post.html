@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="row">
+<!-- MED DOWN -->
+  <div class="hidden-lg-up post-image-small col-12" style="background-color: rgb({{ page.color }}); background: url({{ page.image }}) no-repeat center center fixed; background-size: cover;">
+    <div class="row post-info">
+      <div class="title col-12">
+        <h2>{{ page.title }}</h2>
+      </div>
+      <div class="date">{{ page.date | | date: '%b %d, %Y' }}</div>
+    </div>
+  </div>
+<!-- END MED DOWN -->
+
+  <div class="col-lg-7 col-md-12">
+    <article>
+      {{ content }}
+    </article>
+  </div>
+
+{% if page.image %}
+  <div class="hidden-md-down col-md-12 col-lg-5 post-image" style="background-color: #FFFF9D; background: url({{ page.image }}) no-repeat center center fixed; background-size: cover;">
+    {% else %}
+    <div class="hidden-md-down col-md-12 col-lg-5 post-image" style="background-color: #FFFF9D;">
+{% endif %}
+    <div class="row post-info">
+      <div class="title col-12">
+        <h2>{{ page.title }}</h2>
+      </div>
+      <div class="date">{{ page.date | | date: '%b %d, %Y' }}</div>
+    </div>
+  </div>
+</div>

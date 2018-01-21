@@ -1,0 +1,16 @@
+name: Mumptastic
+description: Thoughts and junk of a web developer
+url: https://mumptastic.com
+enforce_ssl: mumptastic.com
+title: Mumptastic
+markdown: redcarpet
+highlighter: rouge # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+twitter_username: mumptastic
+github_username:  mumptastic
+plugins: [jekyll-paginate]
+paginate: 5
+future: true
+permalink: pretty
